@@ -10,9 +10,9 @@ Current status {
 For doing all the above stuff,you have to do follow these steps {
 1. Make a account on MetaMask (for wallet)
 2. Go to 20lab.app (click on generate, after connecting your MeatMask wallet)
-3. In 20lab, Now you can see there is a tutorial how to generate a blockchain 
+3. In 20lab, Now you can see there is a tutorial how to generate a blockchain (check it!! you can understand better.)
 4. In 20lab, you can see what type of blockchain you want to generate (I'll go with GoerliETH testnet)  
 5. After completing the whole process, now you can validate and deploy your token
-6. Here is the twist it will take some gas fee to generate the token. So make sure you mine(mining) some GoerliETH testnet from https://goerli-faucet.pk910.de/ (this is in my case because I choose GoerliETH testnet if you choose other blockchain make sure that you mine(mining) their currrency )
+6. Here is the twist it will take some gas fee for validate and deploy the token. So make sure you mine(mining) some GoerliETH testnet from https://goerli-faucet.pk910.de/ (this is in my case because I choose GoerliETH testnet if you choose other blockchain make sure that you mine(mining) their currrency )
 7. Finally you can check your Token on https://etherscan.io/ just copy/paste your token address. 
 } 
