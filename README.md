@@ -5,6 +5,8 @@ Current status {
 3. My Metamask wallet address: 0x683ee4a4921Ba0E3d4B4Ed9313C4386ca16D8487
 4. GoerliETH testnet currency : 0.0275 
 5. SepoliaETH testnet currency : 0.4018
+6. Alp (test) token : 50 
+7. YDV (test) token : 5
 }
 
 For doing all the above stuff,you have to do follow these steps {
