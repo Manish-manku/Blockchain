@@ -1,20 +1,46 @@
-# Blockchain 
-Current status {
-1. My Token Name : Octane (OTC)
-2. My Token address : 0x1f5640FBa970C56b96a30918E911facD3033b01B
-3. My Metamask wallet address: 0x683ee4a4921Ba0E3d4B4Ed9313C4386ca16D8487
-4. GoerliETH testnet currency : 0.0275 
-5. SepoliaETH testnet currency : 0.4018
-6. Alp (test) token : 50 
-7. YDV (test) token : 5
-}
+# ledger-fabric
+To initiate the first Hyperledger Fabric network, we will utilize the Fabric-samples repository. This repository consists of CLI tool binaries and Fabric Docker Images, which are essential for comprehending and utilizing the fundamentals of Fabric. Before commencing the project, it is necessary to install the following dependencies:
 
-For doing all the above stuff,you have to do follow these steps {
-1. Make a account on MetaMask (for wallet)
-2. Go to 20lab.app (click on generate, after connecting your MeatMask wallet)
-3. In 20lab, Now you can see there is a tutorial how to generate a blockchain (check it!! you can understand better.)
-4. In 20lab, you can see what type of blockchain you want to generate (I'll go with GoerliETH testnet)  
-5. After completing the whole process, now you can validate and deploy your token
-6. Here is the twist it will take some gas fee for validate and deploy the token. So make sure you mine(mining) some GoerliETH testnet from https://goerli-faucet.pk910.de/ (this is in my case because I choose GoerliETH testnet if you choose other blockchain make sure that you mine(mining) their currrency )
-7. Finally you can check your Token on https://etherscan.io/ just copy/paste your token address. 
-} 
+# 1.Install Docker
+
+    sudo apt-get -y install docker-compose
+
+# 2. Install Golang-go
+
+    sudo apt install golang-go
+
+# 3. Install jq
+
+    sudo apt install jq
+
+# 4. Install Node/java
+
+    sudo apt install npm
+    npm install node
+
+# 5. Installing Fabric-samples Repository
+
+    curl -sSLO https://raw.githubusercontent.com/hyperledger/fabric/main/scripts/install-fabric.sh && chmod +x install-fabric.sh
+    
+Then you can pull docker containers by running one of these commands:
+
+    ./install-fabric.sh docker samples
+    ./install-fabric.sh d s 
+
+To install binaries for Fabric samples you can use the command below:
+
+    ./install-fabric.sh binary
+    
+# Building First Network
+
+1.Navigate through the Fabric-samples folder and then through the Test network folder where you can find script files using these we can run our network.
+
+    cd fabric-samples/test-network
+
+2.We would be running ./network.sh down command to remove any previous network containers or artifacts that still exist. 
+
+    ./network.sh down
+
+3.  we can bring up a network using the following command. This command creates a fabric network that consists of two peer nodes and one ordering node.
+
+    ./network.sh up
