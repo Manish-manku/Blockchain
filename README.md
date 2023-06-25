@@ -1,11 +1,15 @@
-Steps to Create ERC-20 Tokens:-
+#Create ERC20 Token
 
+My Token address : 0x1f5640FBa970C56b96a30918E911facD3033b01B
+My wallet address : 0x683ee4a4921Ba0E3d4B4Ed9313C4386ca16D8487  
+
+Steps to Create ERC-20 Tokens:-
 Create a Metamask Account:-
 1) Create a Account on Metamask Wallet using the Metamask extension.
 2) In Metamask go to settings and connect the wallet to Goerli Test-Network.
 3) Currently we do not have any GoerliETH so we need to mine it because it will be needed as gas fees while deploying our token.
 4) From the website https://goerli-faucet.pk910.de/ we can mine GoerliETH by providing our metamask wallet address. we need to mine more than 0.01.
-
+#20 lab
 Using 20lab:-
 1) https://20lab.app/ - Visit the website(20lab an ERC-20 token generator tool)
 2) Click on Open App, and click on start.
