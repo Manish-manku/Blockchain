@@ -16,7 +16,9 @@ Using 20lab:-
 7) Then we need to validte and compile it.
 8) Now we can see our token name and address in the dashboard
 
-Now check your token on https://goerli.etherscan.io/ foe seeing our transaction history of our token# ledger-fabric
+Now check your token on https://goerli.etherscan.io/ foe seeing our transaction history of our token
+
+# ledger-fabric
 To initiate the first Hyperledger Fabric network, we will utilize the Fabric-samples repository. This repository consists of CLI tool binaries and Fabric Docker Images, which are essential for comprehending and utilizing the fundamentals of Fabric. Before commencing the project, it is necessary to install the following dependencies:
 
 # 1.Install Docker
