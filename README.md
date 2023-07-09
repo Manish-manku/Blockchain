@@ -69,4 +69,5 @@ To install binaries for Fabric samples you can use the command below:
 
 3.  we can bring up a network using the following command. This command creates a fabric network that consists of two peer nodes and one ordering node.
 
-    ./network.sh up
+    sudo ./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-go/ -ccl go
+    
